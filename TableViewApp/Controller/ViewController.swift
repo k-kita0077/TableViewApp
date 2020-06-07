@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, CellContent {
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -27,15 +27,38 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.register(nib, forCellReuseIdentifier: cellID)
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+    //セクションの数　配列の数で決定
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return self.sectionInfo().count
     }
     
+    //セクションのタイトル
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return self.sectionInfo()[section]
+    }
+    
+    //セクション毎のセルの数
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if section == 0 {
+            return self.cellInfo().count
+        } else if section == 1 {
+            return self.secondCellInfo().count
+        } else {
+            return 0
+        }
+    }
+    
+    //セルの中身
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath) as! TableViewCell
-        
-        cell.iconView.image = UIImage(named: "02")
-        cell.titleLabel.text = "タイトル"
+
+        if indexPath.section == 0 {
+            cell.iconView.image = UIImage(named: self.cellInfo()[indexPath.row][0])
+            cell.titleLabel.text = self.cellInfo()[indexPath.row][1]
+        } else if indexPath.section == 1 {
+            cell.iconView.image = UIImage(named: self.secondCellInfo()[indexPath.row][0])
+            cell.titleLabel.text = self.secondCellInfo()[indexPath.row][1]
+        }
         return cell
         
     }
