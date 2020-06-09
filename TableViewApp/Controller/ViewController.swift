@@ -67,12 +67,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 100
     }
     
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        print("クリックした行は\(indexPath)")
-//        let vc = BokenViewController()
-//
-//        navigationController?.pushViewController(vc, animated: true)
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("クリックした行は\(indexPath)")
+        let vc = DetailViewController()
+
+        navigationController?.pushViewController(vc, animated: true)
+    }
 
 }
 
