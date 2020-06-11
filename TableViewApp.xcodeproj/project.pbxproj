@@ -12,6 +12,14 @@
 		7957F0AC248FD1970051A313 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7957F0AB248FD1970051A313 /* CollectionViewController.swift */; };
 		79792E7A249223A70053EE72 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792E79249223A70053EE72 /* CollectionViewCell.swift */; };
 		79792E7C249223B80053EE72 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792E7B249223B80053EE72 /* CollectionReusableView.swift */; };
+		79792E7F249233960053EE72 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E7D249233960053EE72 /* Bokeh.sks */; };
+		79792E80249233960053EE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79792E7E249233960053EE72 /* Assets.xcassets */; };
+		79792E82249238720053EE72 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E81249238720053EE72 /* Fire.sks */; };
+		79792E8424923A220053EE72 /* FireFiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E8324923A220053EE72 /* FireFiles.sks */; };
+		79792E8824923C000053EE72 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E8724923C000053EE72 /* Rain.sks */; };
+		79792E8A24923D990053EE72 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E8924923D990053EE72 /* Smoke.sks */; };
+		79792E8C24923DAC0053EE72 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E8B24923DAC0053EE72 /* Snow.sks */; };
+		79792E8E24923DC40053EE72 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E8D24923DC40053EE72 /* Spark.sks */; };
 		7986A4FD248CC50A0006DF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4FC248CC50A0006DF66 /* AppDelegate.swift */; };
 		7986A4FF248CC50A0006DF66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4FE248CC50A0006DF66 /* SceneDelegate.swift */; };
 		7986A504248CC50A0006DF66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7986A502248CC50A0006DF66 /* Main.storyboard */; };
@@ -29,6 +37,14 @@
 		7957F0AB248FD1970051A313 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		79792E79249223A70053EE72 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		79792E7B249223B80053EE72 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		79792E7D249233960053EE72 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bokeh.sks; sourceTree = "<group>"; };
+		79792E7E249233960053EE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79792E81249238720053EE72 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		79792E8324923A220053EE72 /* FireFiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireFiles.sks; sourceTree = "<group>"; };
+		79792E8724923C000053EE72 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		79792E8924923D990053EE72 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		79792E8B24923DAC0053EE72 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		79792E8D24923DC40053EE72 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
 		7986A4F9248CC50A0006DF66 /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7986A4FC248CC50A0006DF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7986A4FE248CC50A0006DF66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,8 +125,16 @@
 				7986A516248CD08E0006DF66 /* TableViewCell.xib */,
 				79792E79249223A70053EE72 /* CollectionViewCell.swift */,
 				79792E7B249223B80053EE72 /* CollectionReusableView.swift */,
-				7957F0A7248FC7080051A313 /* DetailViewController.swift */,
 				7957F0A8248FC7080051A313 /* DetailViewController.xib */,
+				7957F0A7248FC7080051A313 /* DetailViewController.swift */,
+				79792E7D249233960053EE72 /* Bokeh.sks */,
+				79792E81249238720053EE72 /* Fire.sks */,
+				79792E8324923A220053EE72 /* FireFiles.sks */,
+				79792E8724923C000053EE72 /* Rain.sks */,
+				79792E8924923D990053EE72 /* Smoke.sks */,
+				79792E8B24923DAC0053EE72 /* Snow.sks */,
+				79792E8D24923DC40053EE72 /* Spark.sks */,
+				79792E7E249233960053EE72 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,7 +200,15 @@
 				7986A509248CC50C0006DF66 /* LaunchScreen.storyboard in Resources */,
 				7986A518248CD08E0006DF66 /* TableViewCell.xib in Resources */,
 				7957F0AA248FC7080051A313 /* DetailViewController.xib in Resources */,
+				79792E8824923C000053EE72 /* Rain.sks in Resources */,
+				79792E7F249233960053EE72 /* Bokeh.sks in Resources */,
+				79792E8424923A220053EE72 /* FireFiles.sks in Resources */,
+				79792E8C24923DAC0053EE72 /* Snow.sks in Resources */,
+				79792E80249233960053EE72 /* Assets.xcassets in Resources */,
+				79792E82249238720053EE72 /* Fire.sks in Resources */,
+				79792E8A24923D990053EE72 /* Smoke.sks in Resources */,
 				7986A506248CC50C0006DF66 /* Assets.xcassets in Resources */,
+				79792E8E24923DC40053EE72 /* Spark.sks in Resources */,
 				7986A504248CC50A0006DF66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -73,10 +73,27 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //print("TableRow: \(indexPath.row)")
         //print("TableSectionNum:\(indexPath.section)")
-        let vc = DetailViewController()
-        vc.tappedSection = indexPath.section
-        vc.tappedRow = indexPath.row
-        navigationController?.pushViewController(vc, animated: true)
+        switch indexPath.section {
+        case 1:
+            if indexPath.row == 7 {
+                let vc = DetailViewController()
+                vc.tappedRow = indexPath.row
+                navigationController?.pushViewController(vc, animated: true)
+            } else {
+                let vc = DetailViewController()
+                vc.tappedRow = indexPath.row
+                navigationController?.pushViewController(vc, animated: true)
+            }
+            
+        case 2:
+            let vc = DetailViewController()
+            vc.tappedRow = indexPath.row
+            navigationController?.pushViewController(vc, animated: true)
+        default:
+            let vc = DetailViewController()
+            vc.tappedRow = indexPath.row
+            navigationController?.pushViewController(vc, animated: true)
+        }
     }
 
 }

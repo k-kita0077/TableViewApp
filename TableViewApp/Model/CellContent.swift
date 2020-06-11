@@ -25,9 +25,13 @@ protocol CellContent: class {
 extension CellContent {
     func cellInfo() -> [[String]] {
         let cell:[[String]] = [
-            ["02","タイトル1"],
-            ["02","タイトル2"],
-            ["02","タイトル3"],
+            ["bokeh","Bokeh"],
+            ["fire","Fire"],
+            ["fireFiles","FireFiles"],
+            ["rain","Rain"],
+            ["smoke","Smoke"],
+            ["snow","Snow"],
+            ["sparked","Spark"]
         ]
         return cell
     }

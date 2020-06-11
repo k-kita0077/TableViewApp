@@ -35,11 +35,20 @@ extension CollectionViewController: UICollectionViewDelegate {
         //print("CollectionRow: \(indexPath.row)")
         //print("CollectionSectionNum:\(indexPath.section)")
         
-        let vc = DetailViewController()
-        vc.tappedSection = indexPath.section
-        vc.tappedRow = indexPath.row
-        
-        navigationController?.pushViewController(vc, animated: true)
+        switch indexPath.section {
+        case 1:
+            let vc = DetailViewController()
+            vc.tappedRow = indexPath.row
+            navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc = DetailViewController()
+            vc.tappedRow = indexPath.row
+            navigationController?.pushViewController(vc, animated: true)
+        default:
+            let vc = DetailViewController()
+            vc.tappedRow = indexPath.row
+            navigationController?.pushViewController(vc, animated: true)
+        }
 
     }
 }
