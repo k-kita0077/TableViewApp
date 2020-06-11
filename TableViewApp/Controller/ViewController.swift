@@ -75,19 +75,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //print("TableSectionNum:\(indexPath.section)")
         switch indexPath.section {
         case 1:
-            if indexPath.row == 7 {
-                let vc = DetailViewController()
-                vc.tappedRow = indexPath.row
-                navigationController?.pushViewController(vc, animated: true)
-            } else {
-                let vc = DetailViewController()
-                vc.tappedRow = indexPath.row
-                navigationController?.pushViewController(vc, animated: true)
-            }
-            
+            let vc = TimerViewController()
+            //vc.tappedRow = indexPath.row
+            navigationController?.pushViewController(vc, animated: true)
         case 2:
-            let vc = DetailViewController()
-            vc.tappedRow = indexPath.row
+            let vc = QuizViewController()
+            //vc.tappedRow = indexPath.row
             navigationController?.pushViewController(vc, animated: true)
         default:
             let vc = DetailViewController()

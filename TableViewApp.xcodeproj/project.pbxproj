@@ -20,6 +20,21 @@
 		79792E8A24923D990053EE72 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E8924923D990053EE72 /* Smoke.sks */; };
 		79792E8C24923DAC0053EE72 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E8B24923DAC0053EE72 /* Snow.sks */; };
 		79792E8E24923DC40053EE72 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792E8D24923DC40053EE72 /* Spark.sks */; };
+		79792EB9249253770053EE72 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792EB7249253770053EE72 /* TimerViewController.swift */; };
+		79792EBA249253770053EE72 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79792EB8249253770053EE72 /* TimerViewController.xib */; };
+		79792EBC249257AB0053EE72 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79792EBB249257AB0053EE72 /* MyParticle.sks */; };
+		79792EBE24925E220053EE72 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792EBD24925E220053EE72 /* QuizViewController.swift */; };
+		79792EC02492600B0053EE72 /* truesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79792EBF2492600B0053EE72 /* truesound.mp3 */; };
+		79792EC22492601F0053EE72 /* falsesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79792EC12492601F0053EE72 /* falsesound.mp3 */; };
+		79792EC52492619C0053EE72 /* FirstQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792EC32492619C0053EE72 /* FirstQuestionViewController.swift */; };
+		79792EC62492619C0053EE72 /* FirstQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79792EC42492619C0053EE72 /* FirstQuestionViewController.xib */; };
+		79792EC9249261B60053EE72 /* SecondQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792EC7249261B60053EE72 /* SecondQuestionViewController.swift */; };
+		79792ECA249261B60053EE72 /* SecondQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79792EC8249261B60053EE72 /* SecondQuestionViewController.xib */; };
+		79792ECD249261CC0053EE72 /* ThirdQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792ECB249261CC0053EE72 /* ThirdQuestionViewController.swift */; };
+		79792ECE249261CC0053EE72 /* ThirdQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79792ECC249261CC0053EE72 /* ThirdQuestionViewController.xib */; };
+		79792ED1249261DF0053EE72 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792ECF249261DF0053EE72 /* ScoreViewController.swift */; };
+		79792ED2249261DF0053EE72 /* ScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79792ED0249261DF0053EE72 /* ScoreViewController.xib */; };
+		79792ED4249262380053EE72 /* ScoreCountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79792ED3249262380053EE72 /* ScoreCountManager.swift */; };
 		7986A4FD248CC50A0006DF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4FC248CC50A0006DF66 /* AppDelegate.swift */; };
 		7986A4FF248CC50A0006DF66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986A4FE248CC50A0006DF66 /* SceneDelegate.swift */; };
 		7986A504248CC50A0006DF66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7986A502248CC50A0006DF66 /* Main.storyboard */; };
@@ -45,6 +60,21 @@
 		79792E8924923D990053EE72 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
 		79792E8B24923DAC0053EE72 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
 		79792E8D24923DC40053EE72 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		79792EB7249253770053EE72 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		79792EB8249253770053EE72 /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		79792EBB249257AB0053EE72 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		79792EBD24925E220053EE72 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		79792EBF2492600B0053EE72 /* truesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = truesound.mp3; sourceTree = "<group>"; };
+		79792EC12492601F0053EE72 /* falsesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = falsesound.mp3; sourceTree = "<group>"; };
+		79792EC32492619C0053EE72 /* FirstQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionViewController.swift; sourceTree = "<group>"; };
+		79792EC42492619C0053EE72 /* FirstQuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstQuestionViewController.xib; sourceTree = "<group>"; };
+		79792EC7249261B60053EE72 /* SecondQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondQuestionViewController.swift; sourceTree = "<group>"; };
+		79792EC8249261B60053EE72 /* SecondQuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondQuestionViewController.xib; sourceTree = "<group>"; };
+		79792ECB249261CC0053EE72 /* ThirdQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdQuestionViewController.swift; sourceTree = "<group>"; };
+		79792ECC249261CC0053EE72 /* ThirdQuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdQuestionViewController.xib; sourceTree = "<group>"; };
+		79792ECF249261DF0053EE72 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		79792ED0249261DF0053EE72 /* ScoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreViewController.xib; sourceTree = "<group>"; };
+		79792ED3249262380053EE72 /* ScoreCountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCountManager.swift; sourceTree = "<group>"; };
 		7986A4F9248CC50A0006DF66 /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7986A4FC248CC50A0006DF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7986A4FE248CC50A0006DF66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +124,8 @@
 				7986A505248CC50C0006DF66 /* Assets.xcassets */,
 				7986A507248CC50C0006DF66 /* LaunchScreen.storyboard */,
 				7986A50A248CC50C0006DF66 /* Info.plist */,
+				79792EC12492601F0053EE72 /* falsesound.mp3 */,
+				79792EBF2492600B0053EE72 /* truesound.mp3 */,
 				7986A514248CC87E0006DF66 /* View */,
 				7986A513248CC8740006DF66 /* Model */,
 				7986A510248CC8650006DF66 /* Controller */,
@@ -106,6 +138,9 @@
 			children = (
 				7986A511248CC8650006DF66 /* ViewController.swift */,
 				7957F0AB248FD1970051A313 /* CollectionViewController.swift */,
+				79792EB7249253770053EE72 /* TimerViewController.swift */,
+				79792EB8249253770053EE72 /* TimerViewController.xib */,
+				79792EBD24925E220053EE72 /* QuizViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				79B0CA47248D37F00091130F /* CellContent.swift */,
+				79792ED3249262380053EE72 /* ScoreCountManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -122,11 +158,17 @@
 			isa = PBXGroup;
 			children = (
 				7986A515248CD08E0006DF66 /* TableViewCell.swift */,
+				79792EC32492619C0053EE72 /* FirstQuestionViewController.swift */,
+				79792EC42492619C0053EE72 /* FirstQuestionViewController.xib */,
+				79792EC7249261B60053EE72 /* SecondQuestionViewController.swift */,
+				79792EC8249261B60053EE72 /* SecondQuestionViewController.xib */,
+				79792ECB249261CC0053EE72 /* ThirdQuestionViewController.swift */,
+				79792ECC249261CC0053EE72 /* ThirdQuestionViewController.xib */,
+				79792ECF249261DF0053EE72 /* ScoreViewController.swift */,
+				79792ED0249261DF0053EE72 /* ScoreViewController.xib */,
 				7986A516248CD08E0006DF66 /* TableViewCell.xib */,
 				79792E79249223A70053EE72 /* CollectionViewCell.swift */,
 				79792E7B249223B80053EE72 /* CollectionReusableView.swift */,
-				7957F0A8248FC7080051A313 /* DetailViewController.xib */,
-				7957F0A7248FC7080051A313 /* DetailViewController.swift */,
 				79792E7D249233960053EE72 /* Bokeh.sks */,
 				79792E81249238720053EE72 /* Fire.sks */,
 				79792E8324923A220053EE72 /* FireFiles.sks */,
@@ -134,7 +176,10 @@
 				79792E8924923D990053EE72 /* Smoke.sks */,
 				79792E8B24923DAC0053EE72 /* Snow.sks */,
 				79792E8D24923DC40053EE72 /* Spark.sks */,
+				79792EBB249257AB0053EE72 /* MyParticle.sks */,
 				79792E7E249233960053EE72 /* Assets.xcassets */,
+				7957F0A8248FC7080051A313 /* DetailViewController.xib */,
+				7957F0A7248FC7080051A313 /* DetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -197,9 +242,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79792EBA249253770053EE72 /* TimerViewController.xib in Resources */,
+				79792EC62492619C0053EE72 /* FirstQuestionViewController.xib in Resources */,
 				7986A509248CC50C0006DF66 /* LaunchScreen.storyboard in Resources */,
 				7986A518248CD08E0006DF66 /* TableViewCell.xib in Resources */,
+				79792ED2249261DF0053EE72 /* ScoreViewController.xib in Resources */,
 				7957F0AA248FC7080051A313 /* DetailViewController.xib in Resources */,
+				79792EC02492600B0053EE72 /* truesound.mp3 in Resources */,
+				79792EBC249257AB0053EE72 /* MyParticle.sks in Resources */,
 				79792E8824923C000053EE72 /* Rain.sks in Resources */,
 				79792E7F249233960053EE72 /* Bokeh.sks in Resources */,
 				79792E8424923A220053EE72 /* FireFiles.sks in Resources */,
@@ -209,6 +259,9 @@
 				79792E8A24923D990053EE72 /* Smoke.sks in Resources */,
 				7986A506248CC50C0006DF66 /* Assets.xcassets in Resources */,
 				79792E8E24923DC40053EE72 /* Spark.sks in Resources */,
+				79792ECA249261B60053EE72 /* SecondQuestionViewController.xib in Resources */,
+				79792EC22492601F0053EE72 /* falsesound.mp3 in Resources */,
+				79792ECE249261CC0053EE72 /* ThirdQuestionViewController.xib in Resources */,
 				7986A504248CC50A0006DF66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,15 +273,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79792EB9249253770053EE72 /* TimerViewController.swift in Sources */,
+				79792EC52492619C0053EE72 /* FirstQuestionViewController.swift in Sources */,
+				79792ED4249262380053EE72 /* ScoreCountManager.swift in Sources */,
+				79792ED1249261DF0053EE72 /* ScoreViewController.swift in Sources */,
+				79792ECD249261CC0053EE72 /* ThirdQuestionViewController.swift in Sources */,
 				79792E7C249223B80053EE72 /* CollectionReusableView.swift in Sources */,
 				7986A512248CC8650006DF66 /* ViewController.swift in Sources */,
 				7986A517248CD08E0006DF66 /* TableViewCell.swift in Sources */,
 				79792E7A249223A70053EE72 /* CollectionViewCell.swift in Sources */,
 				79B0CA48248D37F10091130F /* CellContent.swift in Sources */,
 				7957F0A9248FC7080051A313 /* DetailViewController.swift in Sources */,
+				79792EBE24925E220053EE72 /* QuizViewController.swift in Sources */,
 				7957F0AC248FD1970051A313 /* CollectionViewController.swift in Sources */,
 				7986A4FD248CC50A0006DF66 /* AppDelegate.swift in Sources */,
 				7986A4FF248CC50A0006DF66 /* SceneDelegate.swift in Sources */,
+				79792EC9249261B60053EE72 /* SecondQuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

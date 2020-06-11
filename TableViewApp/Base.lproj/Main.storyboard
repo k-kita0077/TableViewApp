@@ -111,6 +111,59 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="854.46428571428567"/>
         </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="faX-yx-yc2">
+            <objects>
+                <viewController id="eme-iE-yY1" customClass="QuizViewController" customModule="TableViewApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PJU-vt-agF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTv-p2-5HY">
+                                <rect key="frame" x="157" y="433" width="100" height="30"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Vpd-Um-nXZ"/>
+                                </constraints>
+                                <state key="normal" title="スタート">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedStartButton:" destination="eme-iE-yY1" eventType="touchUpInside" id="rIN-ux-ata"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MTv-p2-5HY" firstAttribute="centerY" secondItem="PJU-vt-agF" secondAttribute="centerY" id="DGW-WJ-g5d"/>
+                            <constraint firstItem="MTv-p2-5HY" firstAttribute="centerX" secondItem="PJU-vt-agF" secondAttribute="centerX" id="S0N-sU-xe9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iUb-8l-zIK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qlr-b5-pYQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J26-gv-vES" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1959.4202898550727" y="1552.9017857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cZD-w3-jwG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="33j-8d-qfh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qNv-rC-PG7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eme-iE-yY1" kind="relationship" relationship="rootViewController" id="940-NE-hNE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Saj-b5-fqa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1049.2753623188407" y="1552.9017857142856"/>
+        </scene>
     </scenes>
     <resources>
         <image name="circle.grid.3x3.fill" catalog="system" width="128" height="112"/>

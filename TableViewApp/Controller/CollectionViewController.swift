@@ -37,12 +37,12 @@ extension CollectionViewController: UICollectionViewDelegate {
         
         switch indexPath.section {
         case 1:
-            let vc = DetailViewController()
-            vc.tappedRow = indexPath.row
+            let vc = TimerViewController()
+            //vc.tappedRow = indexPath.row
             navigationController?.pushViewController(vc, animated: true)
         case 2:
-            let vc = DetailViewController()
-            vc.tappedRow = indexPath.row
+            let vc = QuizViewController()
+            //vc.tappedRow = indexPath.row
             navigationController?.pushViewController(vc, animated: true)
         default:
             let vc = DetailViewController()

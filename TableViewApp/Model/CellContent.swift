@@ -23,39 +23,37 @@ protocol CellContent: class {
 }
 
 extension CellContent {
+    //セルの内容
     func cellInfo() -> [[String]] {
         let cell:[[String]] = [
+            ["sparked","Spark"],
             ["bokeh","Bokeh"],
             ["fire","Fire"],
             ["fireFiles","FireFiles"],
             ["rain","Rain"],
             ["smoke","Smoke"],
-            ["snow","Snow"],
-            ["sparked","Spark"]
+            ["snow","Snow"]
         ]
         return cell
     }
     
     func secondCellInfo() -> [[String]] {
         let cell:[[String]] = [
-            ["02","タイトル4"],
-            ["02","タイトル5"],
-            ["02","タイトル6"],
+            ["bom","Timer"]
         ]
         return cell
     }
     
     func thirdCellInfo() -> [[String]] {
         let cell:[[String]] = [
-            ["02","タイトル7"],
-            ["02","タイトル8"],
-            ["02","タイトル9"],
+            ["food","Quiz"],
         ]
         return cell
     }
     
+    //セクションのタイトル
     func sectionInfo() -> [String] {
-        let section: [String] = ["SpriteKit","SceneKit","ARKit"]
+        let section: [String] = ["SpriteKit","StopWatch","Quiz"]
         return section
     }
 }
