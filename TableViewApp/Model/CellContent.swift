@@ -15,7 +15,7 @@ protocol CellContent: class {
     
     func secondCellInfo() -> [[String]]
     
-    //func thirdCellInfo() -> [[String]]
+    func thirdCellInfo() -> [[String]]
     
     //func fourthCellInfo() -> [[String]]
     
@@ -41,8 +41,17 @@ extension CellContent {
         return cell
     }
     
+    func thirdCellInfo() -> [[String]] {
+        let cell:[[String]] = [
+            ["02","タイトル7"],
+            ["02","タイトル8"],
+            ["02","タイトル9"],
+        ]
+        return cell
+    }
+    
     func sectionInfo() -> [String] {
-        let section: [String] = ["SpriteKit","ARKit"]
+        let section: [String] = ["SpriteKit","SceneKit","ARKit"]
         return section
     }
 }

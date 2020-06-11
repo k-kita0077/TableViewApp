@@ -10,9 +10,18 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    var tappedSection: Int?
+    var tappedRow: Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        guard let tappedSection = tappedSection else {return}
+        guard let tappedRow = tappedRow else {return}
+        
+        print("Section:\(tappedSection)")
+        print("Row:\(tappedRow)")
+        
         // Do any additional setup after loading the view.
     }
 

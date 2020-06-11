@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else if section == 1 {
             return self.secondCellInfo().count
         } else {
-            return 0
+            return self.thirdCellInfo().count
         }
     }
     
@@ -58,6 +58,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else if indexPath.section == 1 {
             cell.iconView.image = UIImage(named: self.secondCellInfo()[indexPath.row][0])
             cell.titleLabel.text = self.secondCellInfo()[indexPath.row][1]
+        } else {
+            cell.iconView.image = UIImage(named: self.thirdCellInfo()[indexPath.row][0])
+            cell.titleLabel.text = self.thirdCellInfo()[indexPath.row][1]
         }
         return cell
         
@@ -68,9 +71,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("クリックした行は\(indexPath)")
+        //print("TableRow: \(indexPath.row)")
+        //print("TableSectionNum:\(indexPath.section)")
         let vc = DetailViewController()
-
+        vc.tappedSection = indexPath.section
+        vc.tappedRow = indexPath.row
         navigationController?.pushViewController(vc, animated: true)
     }
 
